@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import CreatePost from './components/createPost';
-import PostList from './components/postList';
+import CreatePost from './createPost';
+import PostList from './postList';
 import 'font-awesome/css/font-awesome.min.css';
 
 
