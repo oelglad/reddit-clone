@@ -1,1 +1,26 @@
-
+textarea {
+  resize : none;
+}
+.post-form {
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  resize: none;
+}
+.post-Wrapper{
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.post-Wrapper p, .post-Wrapper h4 {
+  margin: 0;
+  padding:0;
+}
+button {
+  border: black;
+  width:100px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+.post-wrapper-negative {
+}
