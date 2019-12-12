@@ -13,11 +13,13 @@ constructor(props){
       content: "",
       author: "Casey R Harding",
       voteCount: 0,
+      comments: [],
       posts: [{
         title: "This is a post!",
         content: "My post is pretttttttttty good. It's about my day!",
         author: "Harding, Casey Harding",
-        voteCount: 0
+        voteCount: 0,
+        comments: ["this post sucks", "That guy is a jerk, don't listen to him"]
       }]
     }
   }
